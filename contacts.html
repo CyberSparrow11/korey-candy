@@ -87,6 +87,19 @@ _tmr.push({id: "3620811", type: "pageView", start: (new Date()).getTime()});
             <p>Email: support@ksweets.ru</p>
             <p>Телефон: +7 (999) 123-45-67</p>
         </section>
+	     <h3>Форма обращения</h3>
+             <form class="contact-form" action="#" method="post">
+                 <label for="name">Ваше имя:</label>
+                 <input type="text" id="name" name="name" required>
+                 
+                 <label for="email">Ваш Email:</label>
+                 <input type="email" id="email" name="email" required>
+                 
+                 <label for="message">Сообщение:</label>
+                 <textarea id="message" name="message" rows="4" required></textarea>
+                 
+                 <button type="submit" class="btn">Отправить</button>
+             </form>
     </main>
     
     <footer>
